@@ -8,6 +8,9 @@ let anoAtual = dataAtual.getFullYear();
 
 let idade = anoAtual - anoNascimento;
 
-console.log(`Nome completo: ${nome} ${sobrenome}.`);
-console.log(`Campo de estudo: ${areaDeEstudo}.`);
-console.log(`Idade: ${idade} anos.`);
+alert(
+  'Recruta cadastrado com sucesso!\n' +
+  `\nNome completo: ${nome} ${sobrenome}.` +
+  `\nCampo de estudo: ${areaDeEstudo}.` +
+  `\nIdade: ${idade} anos.`
+)
